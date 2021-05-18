@@ -11,6 +11,8 @@
 		AE0F72F026535E1900DA338E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F72EF26535E1900DA338E /* ContentView.swift */; };
 		AE0F72F226535E1A00DA338E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72F126535E1A00DA338E /* Assets.xcassets */; };
 		AE0F72F526535E1A00DA338E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72F426535E1A00DA338E /* Preview Assets.xcassets */; };
+		AE0F72FF2653624500DA338E /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72FD2653624400DA338E /* locations.json */; };
+		AE0F73002653624500DA338E /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72FE2653624500DA338E /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AE0F72F126535E1A00DA338E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0F72F426535E1A00DA338E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE0F72F626535E1A00DA338E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0F72FD2653624400DA338E /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		AE0F72FE2653624500DA338E /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				AE0F72ED26535E1900DA338E /* MYTrekrApp.swift */,
 				AE0F72EF26535E1900DA338E /* ContentView.swift */,
+				AE0F72FD2653624400DA338E /* locations.json */,
+				AE0F72FE2653624500DA338E /* tips.json */,
 				AE0F72F126535E1A00DA338E /* Assets.xcassets */,
 				AE0F72F626535E1A00DA338E /* Info.plist */,
 				AE0F72F326535E1A00DA338E /* Preview Content */,
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0F72F526535E1A00DA338E /* Preview Assets.xcassets in Resources */,
+				AE0F73002653624500DA338E /* tips.json in Resources */,
+				AE0F72FF2653624500DA338E /* locations.json in Resources */,
 				AE0F72F226535E1A00DA338E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
