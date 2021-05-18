@@ -13,6 +13,11 @@
 		AE0F72F526535E1A00DA338E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72F426535E1A00DA338E /* Preview Assets.xcassets */; };
 		AE0F72FF2653624500DA338E /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72FD2653624400DA338E /* locations.json */; };
 		AE0F73002653624500DA338E /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = AE0F72FE2653624500DA338E /* tips.json */; };
+		AE0F73032653742C00DA338E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F73022653742C00DA338E /* Location.swift */; };
+		AE0F73062653787900DA338E /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F73052653787900DA338E /* Locations.swift */; };
+		AE25B3F22653F87100894378 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25B3F12653F87100894378 /* WorldView.swift */; };
+		AE25B3F52654032600894378 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25B3F42654032600894378 /* Tip.swift */; };
+		AE25B3F82654041D00894378 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25B3F72654041D00894378 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AE0F72F626535E1A00DA338E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE0F72FD2653624400DA338E /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		AE0F72FE2653624500DA338E /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		AE0F73022653742C00DA338E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		AE0F73052653787900DA338E /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		AE25B3F12653F87100894378 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		AE25B3F42654032600894378 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		AE25B3F72654041D00894378 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				AE0F72ED26535E1900DA338E /* MYTrekrApp.swift */,
+				AE25B3F12653F87100894378 /* WorldView.swift */,
+				AE25B3F42654032600894378 /* Tip.swift */,
+				AE25B3F72654041D00894378 /* TipsView.swift */,
 				AE0F72EF26535E1900DA338E /* ContentView.swift */,
+				AE0F73052653787900DA338E /* Locations.swift */,
+				AE0F73022653742C00DA338E /* Location.swift */,
 				AE0F72FD2653624400DA338E /* locations.json */,
 				AE0F72FE2653624500DA338E /* tips.json */,
 				AE0F72F126535E1A00DA338E /* Assets.xcassets */,
@@ -147,6 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0F72F026535E1900DA338E /* ContentView.swift in Sources */,
+				AE0F73032653742C00DA338E /* Location.swift in Sources */,
+				AE25B3F22653F87100894378 /* WorldView.swift in Sources */,
+				AE25B3F52654032600894378 /* Tip.swift in Sources */,
+				AE25B3F82654041D00894378 /* TipsView.swift in Sources */,
+				AE0F73062653787900DA338E /* Locations.swift in Sources */,
 				AE0F72EE26535E1900DA338E /* MYTrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
